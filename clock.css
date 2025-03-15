@@ -30,10 +30,31 @@ body::before{
     /* border: 2px solid red; */
     margin: 0 auto;
     position: relative;
-    top: 150px;
+    top: 170px;
     text-align: center;
     font-size: 100px;
     padding-top: 50px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
+}
+
+button{
+    position: relative;
+    padding: 15px 30px;
+    margin-left: 620px;
+    margin-top: 300px;
+    background: transparent;
+    color: white;
+    z-index: 1;
+    border-radius: 10px;
+    border: none;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.photo1{
+    background: url('./pexels-matej-117839-1034425.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }

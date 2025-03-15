@@ -21,3 +21,9 @@ function digitalClock() {
 setInterval(digitalClock, 1000);
 
 digitalClock();
+
+
+function changeImage () {
+  let body = document.querySelector('body');
+  body.classList.toggle('photo1')
+}
